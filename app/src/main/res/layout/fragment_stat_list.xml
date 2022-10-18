@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stat_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatListFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
+        android:layout_gravity="top|start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:text="Average Calories:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_width="237dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="200dp"
+        android:text="Minimum Claories:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:layout_width="241dp"
+        android:layout_height="73dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="400dp"
+        android:text="Maximum Calories:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/avg"
+        android:textStyle="bold"
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="300dp"
+        android:text=""
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/min"
+        android:textStyle="bold"
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:layout_gravity="right|center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="200dp"
+        android:text=""
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/max"
+        android:textStyle="bold"
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="400dp"
+        android:text=""
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="280dp"
+        android:text="Clear" />
+
+
+</FrameLayout>

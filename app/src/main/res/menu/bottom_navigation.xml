@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Log"
+        android:id="@+id/nav_log"
+        android:icon="@drawable/ic_baseline_list_24"
+    />
+
+
+    <item android:title="Dashborad"
+        android:id="@+id/nav_dash"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        />
+</menu>
